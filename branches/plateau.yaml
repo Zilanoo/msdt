@@ -1,6 +1,7 @@
 # Standard BMSC Plateau Route
 - .!!(SoR clip):
     icon: location
+    color: blue
 
 - Run to .loc(Boko Camp)
 - _Equipment::Shield<Pot Lid>:
