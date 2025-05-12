@@ -48,7 +48,7 @@
 - .boss(Waterblight):
     icon: calamity
     icon-map: null
-    notes: .important(Take the heart after Waterblight)
+    notes: .important(Get heart container after Waterblight)
 
 - Mipha's Grace:
     icon: ruta-done
