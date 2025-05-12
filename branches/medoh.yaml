@@ -81,7 +81,7 @@
 - .boss(Windblight):
     icon: calamity
     icon-map: null
-    notes: .important(Take the heart after Windblight)
+    notes: .important(Get heart container after Windblight)
 
 - Revali's Gale:
     icon: medoh-done
