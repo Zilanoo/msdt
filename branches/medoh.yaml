@@ -11,7 +11,8 @@
 - .dir(NE) + .dir(N>>)
 - _Tower::Central
 - BLSS to .loc(Hyrule Castle)
-- .dir(N) to .loc(Castle Balcony)
+- .dir(N) to .loc(Castle Balcony):
+   coord: [-252.875,-632.3656806783165]
 - Drop & pickup:
     notes: Move ruby into slot 1 of materials for IST
     icon: material
