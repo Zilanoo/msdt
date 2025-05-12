@@ -10,7 +10,7 @@
 - .food(6 Peppers):
    comment: Scrap + Food
    icon-doc: food
-- .food(2 Shrooms):
+- .food(5 Shrooms):
    icon-doc: food
    comment: Scrap + Food
 - .food(1 Steak):
