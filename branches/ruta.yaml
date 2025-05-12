@@ -1,0 +1,56 @@
+- .dir(E) + .dir(N):
+   coord: [-2362.5,2506.043307436057]
+   color: violet
+- _Tower::Wasteland
+- BLSS to .loc(Ishto Soh)
+- _Shrine::IshtoSoh
+- BLSS to .loc(Lake Tower)
+- _Tower::Lake
+- BLSS to .loc(Faron Tower)
+- _Tower::Faron
+- BLSS to .loc(Dueling Peaks Tower)
+- _Tower::DuelingPeaks
+- .dir(SE) or BLSS
+- _Shrine::ReeDahee
+- SCW
+- _Shrine::SheeVaneer
+- Glide
+- _Shrine::SheeVenath
+- BLSS
+- _Tower::Hateno
+- BLSS
+- _Tower::Lanayru
+- BLSS
+- _Npc::ZoraMale<King Dorephan>:
+    coord: [3338.31, 268.90, -551.60]
+    comment: Fish Drama
+
+- _Equipment::Shield<Zora Armor>:
+    comment: .!!(Equip)
+    icon-map: null
+- _Shrine::NeezYohma
+- _Npc::ZoraMale<Muzu>:
+    coord: [3303.90, 245.31, -496.23]
+    comment: Mipha Memory
+
+- .dir(E) + .dir(E>)
+- _Npc::ZoraMale<Sidon>:
+    coord: [3598.55, 316.00, -330.31]
+
+- Enter Ruta:
+    icon: ruta-enter
+    coord: [3662.40, 315.66, -175.42]
+    counter: .var(UserDefined) 
+
+- Complete Divine Beast
+- .boss(Waterblight):
+    icon: calamity
+    icon-map: null
+    notes: .important(Take the heart after Waterblight)
+
+- Mipha's Grace:
+    icon: ruta-done
+    movements:
+      - to: [3283.5, -431]
+        warp: true
+    counter: .var(UserDefined) 

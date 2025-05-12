@@ -1,0 +1,69 @@
+- BLSS to .loc(Kay Noh):
+   color: red
+- _Shrine::KayNoh
+- BLSS to .loc(Dako Tah)
+- _Shrine::DakoTah
+- BLSS to .loc(Daqo Chisay)
+- _Npc::SheikaMale<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
+- _Shrine::DaqoChisay
+- .dir(<E) + .dir(<E)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: Buy Gerudo clothes
+- .dir(<W) + .dir(<W)
+- _Shop<Arrow Shop>:
+    comment: Buy 30 Shock Arrows
+    coord: [-3857.625,2912.8873001341335]
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: In throne room
+
+- .dir(<N)
+- Boko BTB + .dir(N):
+    movements:
+      - to: [-4132.90, 159.34, 2598.46]
+      - to: [-3820.625,1823.7648012756144]
+- .dir(E)
+- _Tower::Gerudo
+- Jump down:
+   coord: [-3778.90, 326.03, 1855.20]
+- Moblin BTB
+- Clip in to .loc(Yiga Hideout)
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3510.46, 442.51, 1297.31]
+- .boss(Kohga):
+    icon: calamity
+    counter: .var(UserDefined)
+- _Chest::Special<Thunderhelm>:
+    coord: [-3451.00, 440.69, 1331.50]
+- _Warp::Shrine::DaqoChisay
+- .dir(SW)
+- _Npc<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: On balcony
+
+- .dir(W>)
+- _Npc<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+    comment: At outpost
+
+- Ride sand seal + WB
+- Enter Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+    counter: .var(UserDefined)
+
+- Complete Divine Beast
+- .boss(Thunderblight):
+    icon: calamity
+    notes: .important(Take the heart after Thunderblight)
+    icon-map: null
+
+- Urbosa's Fury:
+    icon: naboris-done
+    movements:
+      - to: [-3772, 2851]
+        warp: true
+    counter: .var(UserDefined)
+- _Warp::Beast::Naboris

@@ -1,0 +1,23 @@
+- The fastest language is Italian.
+- WBs are written with their directions, like 'S>' .link([here]https://docs.google.com/drawings/d/1X8y5J9c6hpzh9WuvBoBGg32BtFqok2rpB7Z9-mQqbJg/edit) to have all the directions.
+
+- Plateau:
+    - use: ./branches/plateau.yaml
+
+- Vah Medoh:
+    - use: ./branches/medoh.yaml
+
+- Hebra + Ridgeland:
+    - use: ./branches/branche2.yaml
+
+- Gerudo:
+   - use: ./branches/gerudo.yaml
+
+- Vah Ruta:
+   - use: ./branches/ruta.yaml
+
+- Eldin:
+    - use: ./branches/goron.yaml
+
+- Final Branch:
+    - use: ./branches/final.yaml

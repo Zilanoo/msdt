@@ -1,0 +1,92 @@
+- Jump down 
+
+- _Equipment::Weapon<Boko Club>:
+    icon-map: null
+    comment: From bokoblin below
+
+- BLSS to .loc(Rota Ooh)
+- _Shrine::RotaOoh
+- BLSS to .loc(Kaam Ya'tak)
+- _Shrine::KaamYatak
+- .dir(NE) + .dir(N>>)
+- _Tower::Central
+- BLSS to .loc(Hyrule Castle)
+- .dir(N) to .loc(Castle Balcony)
+- Drop & pickup:
+    notes: Move ruby into slot 1 of materials for IST
+    icon: material
+    icon-map: null
+    comment: Peppers and shrooms
+- _Chest<3 Ancient Arrows>:
+    coord: [-254.00, 209.67, -742.37]
+- _Equipment::Bow<Royal Bow>:
+    icon-map: null
+- 5 Normal Arrow:
+    icon: bow
+    icon-map: null
+
+- .dir(W) + .dir(W):
+    coord: [-416, -753]
+    notes: BLSS from the guardian on the top of malice pillar
+- _Tower::Ridgeland
+- BLSS to .loc(Shae Loya)
+- _Shrine::ShaeLoya
+
+- BLSS to .loc(Great Fairy Fountain)
+- _Material<3 Fairy>:
+    coord: [-3545.92, 295.03, -760.21]
+- _Material<3 Mighty Thistle>:
+    coord: [-3534.30, 292.78, -764.30]
+
+- .dir(N>)
+- _Equipment::Weapon<Royal Claymore>:
+    coord: [-3554.00, 331.55, -1047.30]
+- BLSS to .loc(Rito Village)
+
+- _Npc::Rito<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+- _Npc::Rito<Saki>:
+    coord: [-3606.64, 323.62, -1823.03]
+    comment: Revali memory
+
+- Jump down
+- _Shop<General Store>:
+    coord: [-3643.01, 290.64, -1823.43]
+    icon-map: null
+- .!!(IST):
+    icon: tots
+    notes: .link([IST Sim link]https://ist.itntpiston.app/?c=H4sIAAAAAAACA4VRy07DQAy871dYQuKctFw59AEFCUHUgDggDtvEKFbdeHE3rcLXs5tHRbn0Zns8Hnv8WJMny%2FSDkELO1iPcQO5Iyb%2FoJtRWTCWqWaEPyVy2kju0OsQLbmLPgm27E40j1tJanssR0gSeRXeWZ6ohncKsLghr36cpZOKfqPxg%2BsLbaZJ8DgrrZtOG5gydQw3BQ8tk67xSkR1M4N6SRvy1or1nNHffDbmTvsntAc1SxUWBfkR6PiI9Ud%2FJV2CZz%2FFYGJgx7PViNNLminYbPWLxe5NRsW1cWGzgTP4vfKY2nHe5uxeZDiLjQZ1jfzw2y%2Bvs8lPMFbzV2Pl0rKio8BCUj2id1EB76BCHpRmbTrw1stjS5JVI%2FEz3uN7hHvkFogvj8jsCAAA%3D)
+    counter: .var(UserDefined) 
+- _Shop<Sell 9 Ruby>:
+    icon-map: null
+
+- .dir(<N)
+- _Shrine::ShaWarvo
+- .dir(N)
+- _Npc::Rito<Teba>:
+    coord: [-3798.52, 267.35, -2314.14]
+
+- Shoot 5 Targets
+- _Chest<Falcon Bow>:
+    icon-map: null
+
+- .dir(Enter Medoh):
+    icon: medoh-enter
+    coord: [-3620.00, 739.95, -2110.00]
+    notes: One ancient arrow takes out a canon.
+    counter: .var(UserDefined) 
+
+- Complete Divine Beast
+
+- .boss(Windblight):
+    icon: calamity
+    icon-map: null
+    notes: .important(Take the heart after Windblight)
+
+- Revali's Gale:
+    icon: medoh-done
+    movements:
+      - to: [-3565.625, -1817.375]
+        warp: true
+    counter: .var(UserDefined)
+

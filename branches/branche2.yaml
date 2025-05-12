@@ -1,0 +1,27 @@
+
+
+- _Npc<Kaneli>:
+    coord: [-3627.20, 323.57, -1830.81]
+    icon-map: null
+    color: yellow
+
+- _Chest::Special<Great Eagle Bow>:
+     icon-map: null
+- _Shrine::AkhVaquot
+- BLSS .dir(S) + .dir(S) + .dir(S)
+- _Tower::Tabantha
+- BLSS .dir(NE) + .dir(NE):
+   movements:
+     - to: [-2664.5,-1975.743764277403] 
+     - to: [-2602.4375,-2099.950177018466]
+- _Shrine::LannoKooh
+- .dir(E) + .dir(E) from a cryo block outside:
+   coord: [-2634,-2008.5076747355038]
+- _Tower::Hebra
+- BLSS to .loc(Rin Oyaa)
+- _Shrine::RinOyaa
+- BLSS to .loc(Maag No'rah)
+- _Shrine::MaagNorah
+- BLSS to .loc(Monya Toma)
+- _Shrine::MonyaToma
+- _Warp::Shrine::KehNamut
