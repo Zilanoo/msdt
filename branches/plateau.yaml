@@ -40,6 +40,10 @@
     coord: [-671.65, 171.79, 1522.61]
 - _Shrine::OmanAu
 
+- Optional Hylian Herb:
+    markers:
+    - at: [-685.73, 171.40, 1486.10]
+
 - BLSS -> tree WB:
     coord: [-839, 2273.5]
 - _Shrine::OwaDaim
