@@ -1,0 +1,29 @@
+- BLSS to .loc(Woodland Tower):
+   color: green 
+- _Tower::Woodland
+- BLSS to .loc(Korok Forest)
+- _Shrine::KeoRuug
+- Run to statue
+- .important(Exchange your orbs at the statue):
+    icon: location
+    coord: [412.625,-2168.2124486155703]
+    notes: Only mash A
+- .terrain(Master Sword):
+    coord: [431.5,-2106.928871647741]
+    icon: tots
+    counter: .var(UserDefined)
+- .dir(N):
+   coord: [385.4375,-2215.6688956188455]
+- Stepup on the top of Deku Tree
+- BLSS to .loc(Sanctum)
+- .boss(Calamity Ganon):
+    icon: ganon
+    coord: [-254.00, 191.01, -1061.37]
+    counter: .var(UserDefined)
+    comment: Use Fury
+
+- .boss(Dark Beast Ganon):
+    icon: ganon
+    counter: .var(UserDefined)
+    notes: Skip Bow of Light
+    comment: GG!
