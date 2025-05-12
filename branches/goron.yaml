@@ -45,7 +45,7 @@
 - .boss(Fireblight):
     icon: calamity
     icon-map: null 
-    notes: .important(Take the heart after Fireblight)
+    notes: .important(Get heart container after Fireblight)
 
 - Daruk's Protection:
     icon: rudania-done
