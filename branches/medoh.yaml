@@ -56,7 +56,7 @@
     icon-map: null
 - .!!(IST):
     icon: tots
-    notes: .link([IST Sim link]https://ist.itntpiston.app/?c=H4sIAAAAAAACA4VRy07DQAy871dYQuKctFw59AEFCUHUgDggDtvEKFbdeHE3rcLXs5tHRbn0Zns8Hnv8WJMny%2FSDkELO1iPcQO5Iyb%2FoJtRWTCWqWaEPyVy2kju0OsQLbmLPgm27E40j1tJanssR0gSeRXeWZ6ohncKsLghr36cpZOKfqPxg%2BsLbaZJ8DgrrZtOG5gydQw3BQ8tk67xSkR1M4N6SRvy1or1nNHffDbmTvsntAc1SxUWBfkR6PiI9Ud%2FJV2CZz%2FFYGJgx7PViNNLminYbPWLxe5NRsW1cWGzgTP4vfKY2nHe5uxeZDiLjQZ1jfzw2y%2Bvs8lPMFbzV2Pl0rKio8BCUj2id1EB76BCHpRmbTrw1stjS5JVI%2FEz3uN7hHvkFogvj8jsCAAA%3D)
+    notes: .link([IST Sim link]https://ist.pistonite.app/?v4=H4sIAAAAAAAAA6WRsW7DMAxEd33FFZ0LxHGnAv2MTkEH2WIsIrSoUnIM_31ROw7QDlm6STjenfT4xIkrivhKeEXJbFzVOgzCgcwNVNHpRUsmb-upl6lDL34Z1Qimi5dOZzQHJLXRizfTGS186plS3a5Zq3A4CZ_pvT0cPtdcm7oFLTLlTIYWcRH2qURTHXHE2bP96DVyqUKOvibO92ZX_JVcMM17wC_7bnor4zQgqgQ0uGnN7mhuHQ1GHmJddlMhEXgRjL6SsZeCUyQJny5zf3mZMo57xPHvq_9TjGZl8qB_--8K847ehZQf7cg94yNt8ObIfaQrGWbyWRO4YFUyBTfdhtYYZyTqgytRtaJB5fGGfBO-AVIo_-Q3AgAA)
     counter: .var(UserDefined) 
 - _Shop<Sell 9 Ruby>:
     icon-map: null
